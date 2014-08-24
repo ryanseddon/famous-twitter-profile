@@ -1,0 +1,48 @@
+{
+  "name": "ryanseddon",
+  "description": "ryanseddon.com",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ryanseddon/ryanseddon",
+  "author": {
+    "name": "Ryan Seddon",
+    "url": "http://github.com/ryanseddon/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ryanseddon/ryanseddon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanseddon/ryanseddon/issues"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "famous": "^0.2.2",
+    "famous-polyfills": "^0.2.2"
+  },
+  "devDependencies": {
+    "gulp": "~3.6.0",
+    "gulp-uglify": "~0.2.1",
+    "gulp-jshint": "~1.5.1",
+    "css-loader": "^0.7.1",
+    "es6-loader": "^0.2.0",
+    "gulp-util": "^2.2.14",
+    "gulp-concat": "~2.2.0",
+    "imports-loader": "~0.6.2",
+    "sass-loader": "~0.2.0",
+    "autoprefixer-loader": "~0.1.1",
+    "run-sequence": "~0.3.6",
+    "url-loader": "^0.5.5",
+    "style-loader": "^0.7.0",
+    "file-loader": "^0.5.1",
+    "script-loader": "^0.5.2",
+    "webpack": "~1.3.1-beta4",
+    "gulp-rimraf": "^0.1.0",
+    "webpack-dev-server": "^1.4.7"
+  },
+  "scripts": {
+    "test": "gulp test"
+  }
+}

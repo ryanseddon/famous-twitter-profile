@@ -1,0 +1,26 @@
+html {
+  font-family: Helvetica, sans-serif;
+  background:#fff;
+}
+.header {
+  background: #5cb0f1;
+}
+.timeline {
+  background: #fff;
+  color: #000;
+}
+
+.footer {
+  background: #feffff;
+  border-top: 1px solid #ccc;
+}
+
+.ProfileCanopy {
+  background: url(../assets/canopy.jpeg) 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.ProfileCanopy-avatar {
+  border-radius: 5px;
+  border: 5px solid #fff;
+}
