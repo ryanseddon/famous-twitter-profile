@@ -1,5 +1,6 @@
 var path = require('path');
 var prefix = process.cwd();
+var webpack = require('webpack');
 
 module.exports = {
   cache: true,
@@ -35,7 +36,7 @@ module.exports = {
       'ImageSurface'       : 'surfaces/ImageSurface',
       'ContainerSurface'   : 'surfaces/ContainerSurface',
 
-      'StateModifier'      : 'Modifierifiers/StateModifier',
+      'StateModifier'      : 'modifiers/StateModifier',
 
       'HeaderFooterLayout' : 'views/HeaderFooterLayout',
       'FlexibleLayout'     : 'views/FlexibleLayout',
@@ -46,5 +47,8 @@ module.exports = {
       'MouseSync'          : 'inputs/MouseSync',
       'TouchSync'          : 'inputs/TouchSync'
     }
-  }
+  },
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin()
+  ]
 };
